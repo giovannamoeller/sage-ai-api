@@ -39,7 +39,5 @@ class LLMService:
   
     results = self.llm_groq.invoke(request)
     results_values = self.parser.parse(results.content)
-    
-    print(f'results_values = {results_values}, {type(results_values)}')
-    
+        
     return results_values
