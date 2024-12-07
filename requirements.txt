@@ -7,3 +7,5 @@ langchain_openai==0.2.11
 Pillow==11.0.0
 pydantic==2.10.3
 pydantic_settings==2.6.1
+python-multipart==0.0.9
+
