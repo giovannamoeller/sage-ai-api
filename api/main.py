@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from core.config import settings
-from .routes import analyze_food, get_restaurants, create_routine
+from api.routes import analyze_food, get_restaurants, create_routine
 
 app = FastAPI(
   title=settings.app_name,
